@@ -1,0 +1,110 @@
+.box-static {
+   flex-direction: column; 
+   background-color: cadetblue;
+   height: 100px;
+   width: 100px;
+   margin-bottom: 20px;
+}
+
+.box-relative-1 {
+    z-index: 1;
+    background-color: rgb(8, 167, 98);
+    height: 150px;
+    width: 150px;
+  margin-left: 15px;
+  position: absolute;
+
+}
+.box-relative-2 {
+    z-index: 2;
+    background-color: rgb(235, 161, 205);
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+  top: 300px;
+  position: absolute;
+}
+
+.container {
+    position: relative;
+ background-color: darkgray;
+ height: 500px;
+ width: 500px;
+
+ margin-bottom: 50px;
+ 
+}
+
+.box-absolute-1 {
+    background-color: rgb(188, 43, 10);
+    height: 150px;
+    width: 150px;
+    margin-top: 320px;
+    margin-left: 50px;
+    z-index: 3;
+
+   
+
+}
+.box-absolute-2 {
+    background-color: rgb(10, 164, 188);
+    height: 200px;
+    width: 200px;
+    margin-left: 80px;
+    z-index: 2;
+    margin-top: -100px;
+    
+    
+
+}
+.box-absolute-3 {
+    background-color: rgb(170, 10, 188);
+    height: 250px;
+    width: 250px;
+    margin-left: 110px;
+    z-index: 1;
+    margin-top: -150px;
+
+}
+.box-zindex-1 {
+    background-color: rgb(188, 10, 93);
+    height: 300px;
+    width: 300px;
+    z-index: 2;
+    position: absolute;
+    left: 350px;
+    top: 30px;
+    
+}
+.box-zindex-2 {
+    background-color: rgb(15, 68, 158);
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    position: absolute;
+    right: 600px;
+    top: 100px;
+    
+}
+
+
+
+
+.box-fixed-2 {
+    background-color: rgb(244, 150, 8);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+   
+    align-self: flex-start;
+}
+.box-fixed-1 {
+    background-color: rgb(201, 244, 8);
+    height: 100px;
+    width: 100px;
+    
+    align-items: flex-start;
+    position: absolute;
+   top:1px;
+   right: 1px;
+}
